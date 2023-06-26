@@ -51,7 +51,7 @@ class StandaloneInjection: InjectionClient {
             //print("\(APP_PREFIX)***** %@", what.map {"\($0)"}.joined(separator: " "))
         }
         builder.forceUnhide = { builder.startUnhide() }
-        builder.bazelLight = true
+//        builder.bazelLight = true
 
         let home = NSHomeDirectory()
             .replacingOccurrences(of: #"(/Users/[^/]+).*"#, with: "$1",
